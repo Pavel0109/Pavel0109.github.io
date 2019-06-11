@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jekyll Bootstrap 4 Boilerplate Theme + Docker
 
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/hexletguides.github.io/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=jekyll-bootstrap4-docker)
@@ -47,3 +48,17 @@ Then open [http://localhost:4000](http://localhost:4000).
 
 - [x] OG-tags support
 - [ ] Bootstrap SASS
+=======
+<!-- TOC -->
+
+- [Раздел 1](#раздел-1)
+    - [Зачем так жить](#зачем-так-жить)
+    - [fenjnfj](#fenjnfj)
+
+<!-- /TOC -->
+# Раздел 1
+
+## Зачем так жить
+
+## fenjnfj
+>>>>>>> 427cb3fd0f5af11247c375948f1486f4d4888783
