@@ -1,9 +1,9 @@
 # Site settings
-title:       "Jekyll Bootstrap 4 with Docker"
-header_title: "Jekyll Bootstrap 4 with Docker"
-email:       your@ema.il
-author:      Your Name
-description: "Jekyll static blog boilerplate with Bootstrap 4 and Docker"
+title:       "Pavel Litvionv blog"
+header_title: "Pavel Litvinov"
+email:       plitvinov99@gmail.com
+author:      Pavel Litvinov
+description: "Pavel Litvinov jrvn"
 baseurl:     "/Pavel0109.github.io"
 url:         "https://Pavel0109.github.io"
 date_format: "%-d.%m.%Y"
