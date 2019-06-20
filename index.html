@@ -4,7 +4,11 @@ layout: default
 
 <div class="row">
   <div class="col">  
-    
+    {% for post in paginator.posts %}
+      {% assign minutes = post.content | strip_html | number_of_words | divided_by: 180 %}
+      {% if minutes == 0 %}
+        {% assign minutes = 1 %}
+      {% endif %}
       <div class="mb-4">
 
         <a href="{{ post.url | prepend: site.baseurl }}" class="nocolor">
@@ -12,19 +16,7 @@ layout: default
         </a>
 
         <div>
-          {% for post in paginator.posts %}
-      {% assign minutes = post.content | strip_html | number_of_words | divided_by: 180 %}
-      {% if minutes == 0 %}
-        {% assign minutes = 1 %}
-      {% endif %}
-    {% if post.content contains "<!-- more -->" %}
-      {{ post.content | split:"<!-- more -->" | first % }}
-      <div style="text-align:right;">
-        <a href="{{ post.url }}" style="color:#000;"> Read More </a>
-      </div>
-    {% else %}
-      {{ post.content }}
-    {% endif %}
+          {{ post.content }}
         </div>
 
         <div class="meta text-muted">
