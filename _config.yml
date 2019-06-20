@@ -5,7 +5,7 @@ email:       your@ema.il
 author:      Your Name
 description: "Jekyll static blog boilerplate with Bootstrap 4 and Docker"
 baseurl:     "/jekyll-bootstrap4-docker"
-url:         "https://hexlet-boilerplates.github.io"
+url:         "https://Pavel0109.github.io"
 date_format: "%-d.%m.%Y"
 
 # Google services
