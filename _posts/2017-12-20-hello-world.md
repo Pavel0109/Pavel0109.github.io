@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: hide
 title: Hello, world!
 ---
 
