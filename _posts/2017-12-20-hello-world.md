@@ -1,6 +1,7 @@
 ---
-layout: hide
+layout: post
 title: Hello, world!
+published: false
 ---
 
 This is a test post.
