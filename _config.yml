@@ -13,7 +13,7 @@ date_format: "%-d.%m.%Y"
 # Optional features
 animated:             false
 show_related_posts:   false
-show_post_footer:    true
+show_post_footer:    false
 show_social_icons:    true
 ajaxify_contact_form: true
 
