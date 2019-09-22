@@ -8,7 +8,7 @@ baseurl:     "/Pavel0109.github.io"
 url:         "https://Pavel0109.github.io"
 date_format: "%-d.%m.%Y"
 
-
+mathjax: true
 
 # Optional features
 animated:             false
